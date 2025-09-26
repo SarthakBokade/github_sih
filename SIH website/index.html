@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByteSquad - Intelligent Pesticide Sprinkling System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">ByteSquad</div>
+            <ul>
+                <li><a href="#problem">The Problem</a></li>
+                <li><a href="#solution">Our Solution</a></li>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#impact">Impact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Intelligent Pesticide Sprinkling System</h1>
+                <p class="subtitle" id="typewriter"></p>
+            </div>
+        </section>
+
+        <section id="problem" class="content-section">
+            <h2 class="section-title">The Problem We're Solving</h2>
+            [cite_start]<p class="section-subtitle">Excessive and indiscriminate pesticide application leads to soil degradation, water contamination, and significant health risks. [cite: 98] Traditional methods are wasteful and inefficient, harming both the environment and the farmer's bottom line.</p>
+        </section>
+
+        <section id="solution" class="content-section">
+            <h2 class="section-title">Our AI-Powered Solution</h2>
+            <div class="solution-workflow">
+                <div class="workflow-step">
+                    <div class="icon"><i class="fa-solid fa-robot"></i></div>
+                    <h3>1. Autonomous Scanning</h3>
+                    <p>A rover autonomously scans the fields, capturing images of individual plants.</p>
+                </div>
+                <div class="arrow">&rarr;</div>
+                <div class="workflow-step">
+                    <div class="icon"><i class="fa-solid fa-brain"></i></div>
+                    <h3>2. AI Image Processing</h3>
+                    [cite_start]<p>Our deep learning model analyzes images in real-time to detect infection levels. [cite: 14]</p>
+                </div>
+                <div class="arrow">&rarr;</div>
+                <div class="workflow-step">
+                    <div class="icon"><i class="fa-solid fa-spray-can-sparkles"></i></div>
+                    <h3>3. Precision Spraying</h3>
+                    [cite_start]<p>The IoT-controlled sprayer targets and treats only the infected plants, saving resources. [cite: 15]</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="dashboard" class="dashboard-section">
+            <h2 class="section-title">Live Farm Dashboard</h2>
+            <div class="dashboard-grid">
+                <div class="dashboard-card status">
+                    <h4>System Status</h4>
+                    <p class="status-active">ACTIVE</p>
+                    <span>Last Scan: 3 mins ago</span>
+                </div>
+                <div class="dashboard-card">
+                    <h4>Pesticide Saved</h4>
+                    <p class="metric">68%</p>
+                </div>
+                <div class="dashboard-card">
+<h4>Crop Infection Rate</h4>
+                    <p class="metric">12%</p>
+                </div>
+                <div class="dashboard-card chart-card">
+                    <h4>Infection Levels (Last 7 Days)</h4>
+                    <canvas id="infectionChart"></canvas>
+                </div>
+            </div>
+        </section>
+        
+        <section id="tech" class="content-section">
+            <h2 class="section-title">Technology Stack</h2>
+            <div class="tech-grid">
+                <div class="tech-icon"><img src="https://i.ibb.co/6yv7YFj/tensorflow-icon.png" alt="TensorFlow"><span>TensorFlow</span></div>
+                <div class="tech-icon"><img src="https://i.ibb.co/HCk1FP3/opencv-icon.png" alt="OpenCV"><span>OpenCV</span></div>
+                <div class="tech-icon"><img src="https://i.ibb.co/1n5bWcK/raspberry-pi-icon.png" alt="Raspberry Pi"><span>Raspberry Pi</span></div>
+                <div class="tech-icon"><img src="https://i.ibb.co/VvzVb0Y/esp32-icon.png" alt="ESP32"><span>ESP32-CAM</span></div>
+                <div class="tech-icon"><img src="https://i.ibb.co/bF4yV7k/python-icon.png" alt="Python"><span>Python</span></div>
+                <div class="tech-icon"><img src="https://i.ibb.co/k5PvxkC/mongodb-icon.png" alt="MongoDB"><span>MongoDB</span></div>
+            </div>
+        </section>
+        
+        <section id="impact" class="content-section">
+            <h2 class="section-title">Project Impact</h2>
+            <div class="impact-grid">
+                <div class="impact-card">
+                    <div class="icon"><i class="fa-solid fa-leaf"></i></div>
+                    <h3>Environmental</h3>
+                    [cite_start]<p>Reduces pesticide use by over <strong class="counter" data-target="50">0</strong>%, protecting soil and water quality. [cite: 71]</p>
+                </div>
+                <div class="impact-card">
+                    <div class="icon"><i class="fa-solid fa-sack-dollar"></i></div>
+                    <h3>Economic</h3>
+                    [cite_start]<p>Increases crop yield and farmer income by minimizing losses and reducing chemical costs. [cite: 78, 77]</p>
+                </div>
+                <div class="impact-card">
+                    <div class="icon"><i class="fa-solid fa-heart-pulse"></i></div>
+                    <h3>Social</h3>
+                    [cite_start]<p>Ensures safer food for consumers and protects farmers' health from chemical exposure. [cite: 68, 69]</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ByteSquad - A Smart India Hackathon Project</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>
